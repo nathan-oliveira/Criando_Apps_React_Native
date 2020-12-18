@@ -1,0 +1,13 @@
+Nodejs NPM
+https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/
+
+====================================================================================
+
+XAMPP
+https://www.edivaldobrito.com.br/como-instalar-o-xampp-no-linux/
+sudo /opt/lampp/lampp start
+sudo /opt/lampp/lampp stop
+
+sudo /opt/lampp/xampp start
+sudo /opt/lampp/xampp restart
+sudo /opt/lampp/xampp stop

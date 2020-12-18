@@ -1,0 +1,28 @@
+Não foi possível obter trava /var/lib/dpkg/lock
+
+Para isso, executamos os comandos a seguir no terminal do Linux:
+
+$ sudo rm /var/lib/apt/lists/lock
+$ sudo rm /var/lib/dpkg/lock
+$ sudo rm /var/lib/dpkg/lock-frontend
+$ sudo rm /var/cache/apt/archives/lock
+
+Após, reconfiguramos os pacotes:
+
+$ sudo dpkg --configure -a
+
+
+========================================================================
+
+ps aux | grep -i apt
+
+sudo kill -9 id_processo
+
+sudo rm /var/lib/apt/lists/lock
+sudo rm /var/lib/dpkg/lock
+sudo rm /var/lib/dpkg/lock-frontend
+sudo rm /var/cache/apt/archives/lock
+
+sudo dpkg --configure -a
+
+

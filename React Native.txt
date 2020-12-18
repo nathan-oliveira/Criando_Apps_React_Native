@@ -1,0 +1,5 @@
+sudo npx react-native init nomeProjeto
+
+sudo npx react-native run-android
+
+https://johnhenrique.com.br/erros-e-solucoes/como-solucionar-o-erro-adb-device-unauthorized.html

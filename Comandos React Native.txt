@@ -1,0 +1,32 @@
+** Comandos React Native **
+
+*Criar novo Projeto:
+sudo npx react-native init seuApp
+
+*Rodar o aplicativo:
+cd seuApp
+sudo npx react-native run-android
+
+*Mac:
+npx react-native run-ios
+
+
+** Criar Projeto com Expo:
+sudo npx expo-cli init meuApp
+
+*Rodar projeto com Expo:
+yarn start
+sudo npx expo-cli start
+
+*Instalar dependencias
+sudo npx expo-cli install
+
+Se der erro no Expo (Linux)
+sudo rm -rf /usr/local/var/run/watchman/root-state
+sudo rm -rf $TMPDIR/react-*; rm -rf $TMPDIR/haste-*; rm -rf $TMPDIR/metro-*; watchman watch-del-all 
+
+echo 256 | sudo tee -a /proc/sys/fs/inotify/max_user_instances
+echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_queued_events
+echo 65536 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
+sudo chown -R $USER:$GROUP ~/.npm
+sudo chown -R $USER:$GROUP ~/.config

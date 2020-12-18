@@ -1,0 +1,6 @@
+snap install scrcpy
+scrcpy -S
+
+Android.sh
+#!/bin/bash
+snap run scrcpy -S

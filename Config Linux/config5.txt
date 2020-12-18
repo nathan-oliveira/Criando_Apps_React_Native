@@ -1,0 +1,11 @@
+https://www.edivaldobrito.com.br/intel-graphics-compiler-no-ubuntu/
+
+https://medium.com/@jeancabral/instalando-e-configurando-react-native-no-ubuntu-18-04-e3329ac090a0
+
+
+======================================
+https://linuxdicasesuporte.blogspot.com/2018/06/manipulando-swap-no-ubuntu-1804-e.html
+
+https://sempreupdate.com.br/como-melhorar-o-desempenho-do-ubuntu/
+
+sudo bash -c "echo 'vm.swappiness = 15' >> /etc/sysctl.conf"
