@@ -1,0 +1,12 @@
+https://sujeitoprogramador.com/ambiente-windows/
+
+Erro com o Choco?
+
+choco config
+choco config list
+choco config get cacheLocation
+choco config get --name cacheLocation
+choco config set cacheLocation c:\temp\choco
+choco config set --name cacheLocation --value c:\temp\choco
+choco config unset proxy
+choco config unset --name proxy

@@ -1,0 +1,14 @@
+com/conversordemoedas/MainApplication.java
+ com.conversordemoedas.MainApplication
+ com.conversordemoedas.MainApplication$1
+com/conversordemoedas/BuildConfig.java
+ com.conversordemoedas.BuildConfig
+com/conversordemoedas/MainActivity.java
+ com.conversordemoedas.MainActivity
+com/conversordemoedas/ReactNativeFlipper.java
+ com.conversordemoedas.ReactNativeFlipper
+ com.conversordemoedas.ReactNativeFlipper$1
+ com.conversordemoedas.ReactNativeFlipper$2
+ com.conversordemoedas.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

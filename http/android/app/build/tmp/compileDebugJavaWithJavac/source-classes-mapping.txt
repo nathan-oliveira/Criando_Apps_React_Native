@@ -1,0 +1,14 @@
+com/http/BuildConfig.java
+ com.http.BuildConfig
+com/http/MainActivity.java
+ com.http.MainActivity
+com/http/ReactNativeFlipper.java
+ com.http.ReactNativeFlipper
+ com.http.ReactNativeFlipper$1
+ com.http.ReactNativeFlipper$2
+ com.http.ReactNativeFlipper$2$1
+com/http/MainApplication.java
+ com.http.MainApplication
+ com.http.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

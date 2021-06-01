@@ -1,11 +1,11 @@
 ** Comandos React Native **
 
 *Criar novo Projeto:
-sudo npx react-native init seuApp
+npx react-native init seuApp
 
 *Rodar o aplicativo:
 cd seuApp
-sudo npx react-native run-android
+npx react-native run-android
 
 *Mac:
 npx react-native run-ios
