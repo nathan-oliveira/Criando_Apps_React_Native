@@ -1,31 +1,24 @@
 import React from 'react';
-import {
-  StatusBar,
-  StyleSheet,
-  View,
-} from 'react-native';
+import { StyleSheet, Text, View, StatusBar } from 'react-native';
 
-import Conversor from './src/Conversor'
-
-const App = () => {
+export default function App() {
   return (
     <React.Fragment>
       <StatusBar style="auto" />
-
-      <View style={styles.container}>
-        <Conversor moedaA="BRL" moedaB="USD" />
-        <Conversor moedaA="USD" moedaB="BRL" />
+      <View>
+        <Text>Open up App.js to start working on your app!</Text>
+        <StatusBar style="auto" />
       </View>
     </React.Fragment>
+    
   );
-};
+}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-});
-
-export default App;
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: '#fff',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   },
+// });
